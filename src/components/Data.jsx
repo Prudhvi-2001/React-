@@ -15,11 +15,14 @@ function Data() {
             role:'Support engineer'
         }
     ]
+    const items=userData.map(data=><User userDetails={data} key={data.id}/>)
   return (
     //condition rendering this is...
     //We use braces for passing the objects into them
     <div>
-       {userActive ? userData.map(data=><User userDetails={data}/>):<p>User is'nt active</p>}
+       {/* {userActive ? userData.map(data=><User userDetails={data}/>):<p>User is'nt active</p>} */}
+       {items}
+       
        <h2></h2>
     </div>
   )
