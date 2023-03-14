@@ -5,6 +5,10 @@ import ComponentA from './components/ComponentA';
 import ComponentC from './components/ComponentC';
 import { createContext } from 'react';
 import Form from './components/Form';
+import ConditionalRendering from './components/ConditionalRendering';
+import UseRefDemo from './components/UseRefDemo';
+import DetailedRef from './components/DetailedRef';
+import UseEffect1 from './components/UseEffect1';
 export const userContext=createContext();
 function App() {
   return (
@@ -13,7 +17,11 @@ function App() {
         <ComponentA/>
       </userContext.Provider> */}
       {/* <Data/> */}
-      <Form/>
+      {/* <Form/> */}
+      {/* <ConditionalRendering/> */}
+      {/* <UseRefDemo/> */}
+      <DetailedRef/>
+      <UseEffect1/>
     </div>
   );
 }
