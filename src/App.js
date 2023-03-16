@@ -9,6 +9,12 @@ import ConditionalRendering from './components/ConditionalRendering';
 import UseRefDemo from './components/UseRefDemo';
 import DetailedRef from './components/DetailedRef';
 import UseEffect1 from './components/UseEffect1';
+import FunctionComponentA from './components/FunctionComponentA';
+import ErrorBoundary from './components/ErrorBoundary';
+import TryCatch from './components/TryCatch';
+import FRParent from './components/FRParent';
+import RefForm from './Example/RefForm';
+import Input from './Example/Input';
 export const userContext=createContext();
 function App() {
   return (
@@ -20,8 +26,15 @@ function App() {
       {/* <Form/> */}
       {/* <ConditionalRendering/> */}
       {/* <UseRefDemo/> */}
-      <DetailedRef/>
-      <UseEffect1/>
+      {/* <DetailedRef/>
+      <UseEffect1/> */}
+      {/* <FunctionComponentA/>
+      <ErrorBoundary/>
+      <TryCatch/> */}
+      {/* <FRParent/> */}
+      <RefForm/>
+      {/* <Input/> */}
+      {/* <UseRefDemo/> */}
     </div>
   );
 }
