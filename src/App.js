@@ -15,6 +15,9 @@ import TryCatch from './components/TryCatch';
 import FRParent from './components/FRParent';
 import RefForm from './Example/RefForm';
 import Input from './Example/Input';
+import DatePicker from './components/DatePicker';
+import SpreadOperator from './components/SpreadOperator';
+import ChildrenProp from './components/ChildrenProp';
 export const userContext=createContext();
 function App() {
   return (
@@ -32,7 +35,10 @@ function App() {
       <ErrorBoundary/>
       <TryCatch/> */}
       {/* <FRParent/> */}
-      <RefForm/>
+      {/* <RefForm/> */}
+      <DatePicker/>
+      <SpreadOperator/>
+      <ChildrenProp/>
       {/* <Input/> */}
       {/* <UseRefDemo/> */}
     </div>
