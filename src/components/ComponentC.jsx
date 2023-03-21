@@ -6,7 +6,8 @@ import Toggle from './Toggle';
 function ComponentC() {
     const user=useContext(userContext);
    const submitHandler=()=>{
-        console.log({user});
+        console.log({user})
+        
     }
   return (
     <div>
